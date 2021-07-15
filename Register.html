@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrar</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="js/alertifyjs/css/themes/default.css">
+	<link rel="stylesheet" type="text/css" href="js/alertifyjs/css/alertify.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/alertifyjs/alertify.js"></script>
+	<script src="js/Register.js"></script>
+	<script src="js/ValidateRegister.js"></script>
+</head>
+<body>
+<br><br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<div class="panel panel-danger">
+					<div class="panel panel-heading">Registro de Usuario</div>
+					<div class="panel panel-body">
+						<form id="frmRegistro">
+							<label>Mail</label>
+						<input type="text" class="form-control input-sm" id="mail" name="" onkeydown="changeInput(event)">
+						<label>Usuario</label>
+						<input type="text" class="form-control input-sm" id="username" name="" onkeydown="changeInput(event)">
+						<label>Contraseña</label>
+						<input type="text" class="form-control input-sm" id="password" name="" onkeydown="changeInput(event)">
+						<p></p>
+						<button class="btn btn-primary" type="button" id="registronuevo">Registrarse</button>
+						</form>
+						<div style="text-align: right">
+							<a href="Index.php" class="btn btn-default">Ingresar</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4"></div>
+		</div>
+	</div>
+
+</body>
+</html>
+

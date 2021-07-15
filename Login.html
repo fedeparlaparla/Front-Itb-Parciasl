@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="js/alertifyjs/css/themes/default.css">
+	<link rel="stylesheet" type="text/css" href="js/alertifyjs/css/alertify.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/alertifyjs/alertify.js"></script>
+	<script src="js/login.js"></script>
+	<script src="js/ValidateLogin.js"></script>
+</head>
+<body>
+	<br><br><br>
+	<form>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<div class="panel panel-primary">
+					<div class="panel panel-heading">Instituto Tecnologico Beltran</div>
+					<div class="panel panel-body">
+						<div>
+							<img src="Img/beltran.jfif" height="200" width="200" >
+						</div>
+						<p></p>
+						<label>Usuario</label>
+						<input type="text" id="usuario" class="form-control input-sm" name="user"  onkeydown="changeInput(event)" >
+						<label>Contraseña</label>
+						<input type="password" id="contrasenia" class="form-control input-sm" name="pass" onkeydown="changeInput(event)">
+						<p></p>
+						<button class="btn btn-primary" type="button" id="ingresar" onclick="click()">Ingresar</button>
+						<a href="Register.html" class="btn btn-danger">Registrarse</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4"></div>
+		</div>
+	</div>
+	</form>
+</body>
+</html>
